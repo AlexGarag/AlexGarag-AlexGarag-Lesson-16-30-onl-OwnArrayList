@@ -9,7 +9,7 @@ public class Executor {
     public static void main(String[] args) {
 
 
-        OwnArrayList<String> ownArrayList = new by.tms.lesson_30_onl.ownarraylist.fg.OwnArrayList(3);
+        OwnArrayList<String> ownArrayList = new OwnArrayList(3);
         System.out.println(ownArrayList.toString());
 
         ownArrayList.add("String0");
